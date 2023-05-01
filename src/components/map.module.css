@@ -1,0 +1,8 @@
+.mapRow {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.mapElem {
+  padding: 0.5rem;
+}
