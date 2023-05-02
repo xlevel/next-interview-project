@@ -1,11 +1,16 @@
-import Map from 'src/components/map'
+import MinesMap from "src/components/MinesMap";
 
 export default function Home() {
-  const gameMap = [['.', '.', '.'], ['.', '*', '.'], ['.', '.', '*']];
+  const gameMap = [
+    ["*", ".", ".", "."],
+    [".", ".", "*", "."],
+    [".", ".", ".", "."],
+  ];
 
   return (
     <div>
-      <Map gameMap={gameMap} />
+      <h3>Minesweeper map</h3>
+      <MinesMap gameMap={gameMap} />
     </div>
-  )
+  );
 }
