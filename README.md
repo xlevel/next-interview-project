@@ -24,19 +24,11 @@ Example:
 0111
 ```
 
-
-## To Build Project
-
-```bash
-npm run build
-```
-
-## To Start Project
+## To Start Developing
 
 ```bash
-npm start
+npm run dev
 ```
-This launches the project on http:localhost:3000/
 
 ## To Run Jest Tests
 
