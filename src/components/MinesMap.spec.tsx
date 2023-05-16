@@ -4,6 +4,6 @@ import MinesMap from "./MinesMap";
 describe("MinesMap", () => {
   it("example unit test", () => {
     // const gameMap = [['.', '.', '.'], ['.', '*', '.'], ['.', '.', '*']];
-    // render(<Map gameMap={gameMap} />)
+    // render(<MinesMap gameMap={gameMap} />)
   });
 });
