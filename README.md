@@ -2,7 +2,7 @@
 
 ## Mine Sweeper Map
 
-A field of 4 by 3 squares is represented by an array of 3 arrays of 4 arrays of type string.
+A map of 4 by 3 squares is represented by a two dimensional array of 3 rows by 4 columns. The values are all of type string.
 The character `*` represents a mine.
 The character `.` represents a space.
 
@@ -14,7 +14,7 @@ Example:
 ....
 ```
 
-Your task is to write a program to accept the input and product a hint field version of the map with the same dimensions, were a square eithercontains a mine, `*`, or the number of adjacent mines, `2`.
+Your task is to write a program to accept the input and produce a 'hint' field version of the map with the same dimensions, were a square either contains a mine, `*`, or the number of adjacent mines, `2`.
 
 Example:
 
