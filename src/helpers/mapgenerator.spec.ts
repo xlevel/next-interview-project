@@ -6,6 +6,6 @@ describe("Mapgenerator", () => {
     // const map = [['.', '.', '.'], ['.', '*', '.'], ['.', '.', '*']];
     // const result = [['1', '1', '1'], ['1', '*', '2'], ['1', '2', '*']];
 
-    // expect(generate(map)).toBe(result);
+    // expect(generate(map)).toStrictEqual(result);
   });
 });
